@@ -1,4 +1,4 @@
-# PT2300_Tap_Tempo
+# PT2399_Tap_Tempo
 
 This project uses an ATTiny85 microcontroller, an encoder, an opamp, transistor, switch and some passives to create full-featured PT2399 tap tempo solution. Features include:
 
