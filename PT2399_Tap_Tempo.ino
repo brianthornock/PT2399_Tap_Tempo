@@ -38,6 +38,7 @@ uint8_t multiplier = 1; // How much to divide the tapped tempo
 uint8_t prevMultiplier = 1; // Last multiplier for checking to see what we need to do
 uint8_t updateMult = 0;
 uint8_t updateLEDInterval = 1;
+uint8_t updateDTime = 0;
 
 
 // Initiate the tap tempo button stuff
@@ -137,7 +138,7 @@ void loop() {
   updateLED();
 
   // If we have changed our delay time, update the PWM output
-  if updateDTime {
+  if (updateDTime) {
     updatePWM();
   }
 }
