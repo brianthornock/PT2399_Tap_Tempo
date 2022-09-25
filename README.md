@@ -4,7 +4,7 @@ This project uses an ATTiny85 microcontroller, an encoder, an opamp, transistor,
 
  - Relative time adjustments: adjusting the delay time with the encoder doesn't cause delay time to skip around dramatically like some other solutions
  - No need for a digiPOT! No need to worry about the tolerances or serial communications.
- - Programmable division switch: Press the encoder switch and you can have it do any division you want, just change the code. Default is a 2x multiplier.
+ - Programmable division switch: Press the encoder switch and you can have it do any division you want, just change the code. Defaults are 1.5x and 2x multipliers.
  - Blinking LED indicator: shows you the time you tapped in. If using divisions, it shows the actual delay time (delayTime/multiplier)
  
- For more detail on the project, see the webpage at: 
+ For more detail on the project, see the webpage at: https://scientificguitarist.wixsite.com/home/pt2399-tap-tempo
