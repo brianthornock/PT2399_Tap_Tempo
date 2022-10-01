@@ -1,0 +1,16 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DESCRIPTION";"HEIGHT";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MOUSER_PART_NUMBER";"MOUSER_PRICE-STOCK";"POPULARITY";"SF_SKU";"SPICEPREFIX";
+"4";"100k";"R-US_R0805";"R0805";"R1, R2, R13, R14";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"2";"100n";"C-EUC0805";"C0805";"C3, C7";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"C";
+"5";"10k";"R-US_R0805";"R0805";"R4, R5, R6, R7, R9";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"2";"10n";"C-EUC0805";"C0805";"C5, C6";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"C";
+"2";"1k5";"R-US_R0805";"R0805";"R3, R15";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"1";"47k";"R-US_R0805";"R0805";"R12";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"2";"47u";"C-EUC0805";"C0805";"C1, C4";"CAPACITOR, European symbol";"";"";"";"";"";"";"88";"";"C";
+"1";"4k7";"R-US_R0805";"R0805";"R11";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"1";"6k8";"R-US_R0805";"R0805";"R8";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"1";"ATTINY841-SSU";"ATTINY841-SSU";"SOIC127P600X175-14N";"IC2";"MCU 8-bit ATtiny AVR 8KB Flash Atmel ATTINY841-SSU, 8bit AVR Microcontroller, 16MHz, 8 kB Flash, 14-Pin SOIC";"MCU 8-bit ATtiny AVR 8KB Flash Atmel ATTINY841-SSU, 8bit AVR Microcontroller, 16MHz, 8 kB Flash, 14-Pin SOIC";"1.75mm";"Microchip";"ATTINY841-SSU";"556-ATTINY841-SSU";"https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATTINY841-SSU?qs=HVbQlW5zcXVaBIh573n%252Bhw%3D%3D";"";"";"";
+"1";"ENCODER-SWITCH";"ENCODER-SWITCH";"ROTARY_ENC_PLAIN";"S1";"Rotary Encoder w/ Select Switch";"";"";"";"";"";"";"";"COM-09117";"";
+"8";"LSP10";"LSP10";"LSP10";"+5V, GND, LED+, LED-, PIN6, PIN6_2, TAP_SW_A, TAP_SW_B";"SOLDER PAD drill 1.0 mm, distributor Buerklin, 12H555";"";"";"";"";"";"";"";"";"";
+"2";"MMBT5088LT1G";"MMBT5088LT1G";"SOT95P237X111-3N";"Q1, Q2";"ON Semi MMBT5088LT1G NPN Bipolar Transistor, 50 mA, 30 V, 3-Pin SOT-23";"ON Semi MMBT5088LT1G NPN Bipolar Transistor, 50 mA, 30 V, 3-Pin SOT-23";"1.11mm";"ON Semiconductor";"MMBT5088LT1G";"863-MMBT5088LT1G";"https://www.mouser.co.uk/ProductDetail/onsemi/MMBT5088LT1G?qs=HVbQlW5zcXW4Her9wnPvIg%3D%3D";"";"";"";
+"1";"RLED";"R-US_R0805";"R0805";"R10";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"R";
+"1";"TLC2272";"TL072D";"SO08";"IC1";"OP AMP";"";"";"";"";"";"";"0";"";"";
