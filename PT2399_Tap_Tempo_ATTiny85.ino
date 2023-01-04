@@ -196,17 +196,6 @@ ISR (PCINT0_vect) {
       //Counterclockwise turn, shorter delay time
       if (sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) {
 
-        baseDelayTime -= timeStep;
-  
-        // Don't let it go below minTime ms
-        if (baseDelayTime < minTime) {
-          baseDelayTime = minTime;
-        }
-
-      }
-      //Clockwise turn, longer delay time
-      else if (sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) {
-
         baseDelayTime += timeStep;
   
         // Don't let it exceed maxTime ms
@@ -214,6 +203,16 @@ ISR (PCINT0_vect) {
           baseDelayTime = maxTime;
         }
 
+      }
+      //Clockwise turn, longer delay time
+      else if (sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) {
+
+        baseDelayTime -= timeStep;
+  
+        // Don't let it go below minTime ms
+        if (baseDelayTime < minTime) {
+          baseDelayTime = minTime;
+        }
       }
       lastEnc = encoded;
       updateMult = 0;
